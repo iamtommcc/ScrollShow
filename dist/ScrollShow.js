@@ -69,7 +69,25 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
-	var ScrollShow = exports.ScrollShow = function ScrollShow(options) {
+	/**
+	 *
+	 */
+	
+	var ScrollShow =
+	
+	/**
+	 * Create a new ScrollShow instance
+	 * @param options {Object} Settings to use
+	 * @param [options.enterOffset=100] {number} Extra pixels before an element is considered in view
+	 * @param [options.exitMargin=200] {number} Fewer pixels before an element is considered out of view
+	 * @param [options.query=null] {String} Query string targeting the elements you want to target
+	 * @param [options.throttle=250] {number} Milliseconds to throttle scroll action
+	 * @param [options.debug=false] {boolean} Enable rudimentary debugging feature
+	 * @param [options.fireOnce=false] {boolean} Set to true to disable further actions once elements have appeared once
+	 * @param [options.outOfViewClass='out-of-view'] {string} Class to add once elements are out of view
+	 * @param [options.inViewClass='in-view'] {string} Class to add once elements are in view
+	 */
+	exports.ScrollShow = function ScrollShow(options) {
 	  var _this = this;
 	
 	  _classCallCheck(this, ScrollShow);
@@ -121,7 +139,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    enterOffset: 100,
 	    exitMargin: 200,
 	    query: null,
-	    throttle: 200,
+	    throttle: 250,
 	    debug: false,
 	    fireOnce: false,
 	    outOfViewClass: 'out-of-view',
