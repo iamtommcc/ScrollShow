@@ -4,7 +4,7 @@ An incredibly basic JS module that adds or removes classes to elements as they e
 
 ## Installation
 
-`npm install --save scrollshow`
+`npm install --save ScrollShow`
 
 ## License
 

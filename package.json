@@ -1,6 +1,6 @@
 {
   "name": "ScrollShow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Super minimal library for adding/removing element classes based on whether or not they are visible in the viewport.",
   "main": "dist/ScrollShow.js",
   "scripts": {
